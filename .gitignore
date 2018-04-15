@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.pyc
+.model
+.png
+
+/.git
+/.idea
+/__pycache__
+/log

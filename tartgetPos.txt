@@ -1,0 +1,51 @@
+'gps_location': <GeoPoint> {   'altitude': 123.3200912475586,
+    'latitude': 47.641793622956115,
+    'longitude': -122.14016723632962},
+
+    'kinematics_estimated': <KinematicsState> {   'angular_acceleration': <Vector3r> {   'x_val': -1.88
+9250977882284e-09,
+    'y_val': -1.427661418914795,
+    'z_val': 2.4183029267987877e-07},
+    'angular_velocity': <Vector3r> {   'x_val': -6.261182647904207e-07,
+    'y_val': -0.3316490948200226,
+    'z_val': -5.814738912590656e-09},
+    'linear_acceleration': <Vector3r> {   'x_val': -2.0958447456359863,
+    'y_val': -1.5302674682970974e-06,
+    'z_val': 0.5203914642333984},
+    'linear_velocity': <Vector3r> {   'x_val': 0.14355872571468353,
+    'y_val': -3.456563035797444e-07,
+    'z_val': 0.024195034056901932},
+
+
+    'orientation': <Quaternionr> {   'w_val': 0.9939026236534119,
+    'x_val': 3.051227892569841e-08,
+    'y_val': 0.11026159673929214,
+    'z_val': 1.003394345389097e-06},
+
+
+    'position': <Vector3r> {   'x_val': 36.24326705932617,
+    'y_val': -1.1155467660728391e-07,
+    'z_val': -1.3200207948684692}},
+
+
+    'kinematics_true': <KinematicsState> {   'angular_acceleration': <Vector3r> {   'x_val': -1.8892509
+77882284e-09,
+    'y_val': -1.427661418914795,
+    'z_val': 2.4183029267987877e-07},
+    'angular_velocity': <Vector3r> {   'x_val': -6.261182647904207e-07,
+    'y_val': -0.3316490948200226,
+    'z_val': -5.814738912590656e-09},
+    'linear_acceleration': <Vector3r> {   'x_val': -2.0958447456359863,
+    'y_val': -1.5302674682970974e-06,
+    'z_val': 0.5203914642333984},
+    'linear_velocity': <Vector3r> {   'x_val': 0.14355872571468353,
+    'y_val': -3.456563035797444e-07,
+    'z_val': 0.024195034056901932},
+    'orientation': <Quaternionr> {   'w_val': 0.9939026236534119,
+    'x_val': 3.051227892569841e-08,
+    'y_val': 0.11026159673929214,
+    'z_val': 1.003394345389097e-06},
+    'position': <Vector3r> {   'x_val': 36.24326705932617,
+    'y_val': -1.1155467660728391e-07,
+    'z_val': -1.3200207948684692}},
+    'timestamp': 98985001000}
