@@ -246,6 +246,11 @@ class DroneEnv(object):
         else:
             return 0
 
+    def get_dist(self):
+        loc = self.client.getPosition()
+        return ((loc.x_val - self.tarX) ** 2 +
+                (loc.y_val - self.tarY) ** 2 +
+                (loc.z_val - self.tarZ) ** 2)
 
 if __name__ == '__main__':
 
