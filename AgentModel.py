@@ -13,7 +13,7 @@ from collections import deque
 from skimage import io
 
 class DQNAgent(object):
-    def __init__(self, load_model='./success.model'):
+    def __init__(self, load_model='./success.model', test_mode=False):
         self.input_shape = (144, 256, 4)
         # why the actions are 7?
         self.nb_actions = 4
@@ -37,6 +37,8 @@ class DQNAgent(object):
         # print('Try load model weights')
         #if load_model:
         #    self.target_model.load_weights(load_model)
+        self.test_mode = test_mode
+
 
     def create_model(self):
         model = Sequential()
@@ -63,6 +65,10 @@ class DQNAgent(object):
     def act(self, state):
         self.epsilon *= self.epsilon_decay
         self.epsilon = max(self.epsilon_min, self.epsilon)
+
+        if self.test_mode:
+            return np.argmax(self.model.predict(np.array([state]))[0])
+
         if np.random.random() < self.epsilon:
             # env.action_space.sample
             # Returns a array with one sample from each discrete action space

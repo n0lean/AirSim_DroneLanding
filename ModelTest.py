@@ -6,7 +6,7 @@ import numpy as np
 if __name__ == '__main__':
     save_path = './img_save/'
     npy_path = './npy_save/'
-    agent = DQNAgent()
+    agent = DQNAgent(test_mode=True)
     # DroneEnv.get_dist()
     # need an api for distance info
     # api:
