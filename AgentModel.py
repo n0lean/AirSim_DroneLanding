@@ -35,8 +35,8 @@ class DQNAgent(object):
         self.target_model = self.create_model()
 
         # print('Try load model weights')
-        #if load_model:
-        #    self.target_model.load_weights(load_model)
+        if load_model:
+            self.target_model.load_weights(load_model)
         self.test_mode = test_mode
 
 
